@@ -20,7 +20,7 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         port: 22
         script: |
-          cd home/aliya/back
+          cd home/aliya/back/
           source ./venv/bin/activate
           git pull
           python manage.py migrate
