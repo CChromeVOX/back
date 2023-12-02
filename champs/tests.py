@@ -14,6 +14,6 @@ class MyTestCase(TestCase):
         champ = Champ.objects.create(name="bsuchjx", type="egs", description="deascgarev")
         self.assertEqual(champ.description, "deascgarev")
 
-     def test_model_description(self):
+    def test_model_more(self):
         champ = Champ.objects.create(name="tcgjh", type="egs", description="tcgjh")
         self.assertEqual(champ.description, "tcgjh")
